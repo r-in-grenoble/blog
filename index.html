@@ -1,9 +1,9 @@
 ---
 layout: default
-title: My posts
+title: Our posts
 ---
 
-<h2>{{ page.title }}:</h2>
+<h2>{{ page.title }}, relayed by <a target="_blank" href="https://www.r-bloggers.com/">R-bloggers</a>:</h2>
 
 <ul class="posts">
 
@@ -11,4 +11,9 @@ title: My posts
     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   
+</ul>
+
+<h2>Blogs of R users in Grenoble:</h2>
+<ul>
+    <li><a href="https://privefl.github.io/blog/">Florian Privé</a></li>
 </ul>
