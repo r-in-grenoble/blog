@@ -1,0 +1,68 @@
+---
+title: "Grenoble RUG: first working session"
+author: "Florian Privé"
+date: "October 2, 2017" # DO NOT USE Sys.Date()
+output:                    # DO NOT CHANGE
+  prettydoc::html_pretty:  # DO NOT CHANGE
+    theme: cayman          # DO NOT CHANGE
+    highlight: github      # DO NOT CHANGE
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(fig.align = "center", dev = "svg",
+                      fig.asp = 0.7, out.width = "80%", echo = FALSE)
+```
+
+
+In this post, I will talk about the organisation of our R User Group (RUG) in Grenoble and our first working session.
+
+## Organisation
+
+Each month, we have a working session of 2 hours. The first hour is dedicated to a presentation/tutorial (you can see the full list [online](https://r-in-grenoble.github.io/sessions.html)). The second hour is dedicated to meeting people, talking to them and asking for R-help. We'll think about using the first 5 minutes of the second hour for a lightning talk (idea from the R-ladies in Barcelona).
+
+## Communication
+
+We use mainly 4 means of communication:
+
+- mailing-lists,
+- a [public calendar](https://r-in-grenoble.github.io/calendar.html) that people can add to their own calendar,
+- a [poster](https://r-in-grenoble.github.io/calendar.html) that people can put where they work,
+- people talking to their colleagues about our group.
+
+## First session 
+
+The first session was an Introduction to R. This is normally a 3-hour introduction (we had only one hour) dedicated to introduce the R language to people that use Excel so that they can use R instead.
+
+You can find the sources in [this GitHub repo](https://github.com/fchuffar/intro_r).
+
+## What worked and what didn't
+
+What worked:
+
+- communication: at the beginning, we were expecting 20 people and we were in fact 48
+
+```{r}
+knitr::include_graphics("https://pbs.twimg.com/media/DK11yMQXcAEXiYw.jpg")
+```
+
+What didn't work:
+
+- learn R: this is impossible to learn R in 1 hour. Thus, we now think it would have been better to show what R can accomplish to make people eager to learn R. Then, we could have given some links to where people can learn the basics of R. I think we'll do that next year.
+
+- the second part of the working session: I'm not sure everyone understood the purpose of the second part. We'll have to think about how to make people talk to each other or how to make newbies ask for help from more advanced R users. **If any reader has ideas for this, please comment!**
+
+
+## Bonus
+
+We have nice stickers and ecocups:
+
+```{r, out.width="20%"}
+knitr::include_graphics("https://pbs.twimg.com/media/DKY-HyMWsAAAktm.jpg")
+```
+
+```{r, out.width="70%"}
+knitr::include_graphics("https://pbs.twimg.com/media/DKFOI-vWAAERJFn.jpg")
+```
+
+
