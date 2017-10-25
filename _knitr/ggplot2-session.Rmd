@@ -1,0 +1,26 @@
+---
+title: "Grenoble RUG: 2nd working session, ggplot2"
+author: "Florian Privé"
+date: "October 25, 2017" # DO NOT USE Sys.Date()
+output:                    # DO NOT CHANGE
+  prettydoc::html_pretty:  # DO NOT CHANGE
+    theme: cayman          # DO NOT CHANGE
+    highlight: github      # DO NOT CHANGE
+---
+
+**The slides are available [there](https://privefl.github.io/R-presentation/ggplot2.html#1).**
+
+```{r, fig.align='center', out.width='100%', echo=FALSE}
+knitr::include_graphics("https://pbs.twimg.com/media/DMgvwi7XkAAsCoS.jpg:large")
+```
+
+For example, you'll learn 
+
+```{r, eval=FALSE, echo=FALSE}
+webshot::webshot("https://privefl.github.io/R-presentation/ggplot2.html#53",
+                 "images/slide-ggplot.png")
+```
+
+```{r, fig.align='center', out.width='100%', echo=FALSE}
+knitr::include_graphics("https://r-in-grenoble.github.io/blog/images/slide-ggplot.png")
+```
