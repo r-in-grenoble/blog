@@ -1,5 +1,5 @@
 ---
-title: "Grenoble RUG: 2nd working session, ggplot2"
+title: "Grenoble RUG: 2nd working session, ggplot"
 
 author: "Florian Privé"
 date: "October 25, 2017"
