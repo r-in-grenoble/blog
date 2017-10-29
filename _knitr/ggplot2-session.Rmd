@@ -1,5 +1,5 @@
 ---
-title: "Grenoble RUG: 2nd working session, ggplot"
+title: "Grenoble RUG: 2nd working session, ggplot2"
 author: "Florian Privé"
 date: "October 25, 2017" # DO NOT USE Sys.Date()
 output:                    # DO NOT CHANGE
