@@ -1,7 +1,7 @@
 ---
 title: "Grenoble RUG: 2nd working session, ggplot"
 
-author: "Florian Privé"
+author: "Florian PrivÃ©"
 date: "October 25, 2017"
 layout: post
 ---
